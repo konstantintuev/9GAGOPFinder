@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">9GAG OP Finder</string>
+    <string name="short_clip">Use url from clipboard</string>
+    <string name="long_clip">Use url from clipboard</string>
+    <string name="short_gmail">Use GMAIL link</string>
+    <string name="long_gmail">Use link in GMAIL</string>
+
+</resources>

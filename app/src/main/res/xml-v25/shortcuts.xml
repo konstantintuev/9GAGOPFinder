@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="clip"
+        android:enabled="true"
+        android:icon="@mipmap/clipboard"
+        android:shortcutShortLabel="@string/short_clip"
+        android:shortcutLongLabel="@string/long_clip">
+        <intent
+            android:action="tuev.konstantin.a9gagopfinder.CLIP"
+            android:targetPackage="tuev.konstantin.a9gagopfinder"
+            android:targetClass="tuev.konstantin.a9gagopfinder.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:shortcutId="gmail"
+        android:enabled="true"
+        android:icon="@mipmap/gmail"
+        android:shortcutShortLabel="@string/short_gmail"
+        android:shortcutLongLabel="@string/long_gmail">
+        <intent
+            android:action="tuev.konstantin.a9gagopfinder.GMAIL"
+            android:targetPackage="tuev.konstantin.a9gagopfinder"
+            android:targetClass="tuev.konstantin.a9gagopfinder.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+    </shortcut>
+</shortcuts>
+
